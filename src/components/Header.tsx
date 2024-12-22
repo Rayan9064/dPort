@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wallet, Menu } from 'lucide-react';
+import Link from 'next/link';
 
 export function Header() {
   return (
@@ -11,9 +12,9 @@ export function Header() {
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="/" className="text-gray-300 hover:text-primary-light transition-colors">Home</a>
-          <a href="/themes" className="text-gray-300 hover:text-primary-light transition-colors">Themes</a>
-          <a href="/dashboard" className="text-gray-300 hover:text-primary-light transition-colors">Dashboard</a>
+          <Link href="/" className="text-gray-300 hover:text-primary-light transition-colors">Home</Link>
+          <Link href="/themes" className="text-gray-300 hover:text-primary-light transition-colors">Themes</Link>
+          <Link href="/dashboard" className="text-gray-300 hover:text-primary-light transition-colors">Dashboard</Link>
           <button className="flex items-center space-x-2 bg-gradient-to-r from-primary to-primary-light text-white px-4 py-2 rounded-lg hover:opacity-90 transition-opacity">
             <Wallet size={20} />
             <span>Connect Wallet</span>

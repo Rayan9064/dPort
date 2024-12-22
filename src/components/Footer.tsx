@@ -1,5 +1,6 @@
 import React from 'react';
 import { Twitter, Linkedin, Github } from 'lucide-react';
+import Link from 'next/link';
 
 export function Footer() {
   return (
@@ -13,16 +14,16 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Home</a></li>
-              <li><a href="/themes" className="text-gray-400 hover:text-white transition-colors">Themes</a></li>
-              <li><a href="/dashboard" className="text-gray-400 hover:text-white transition-colors">Dashboard</a></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
+              <li><Link href="/themes" className="text-gray-400 hover:text-white transition-colors">Themes</Link></li>
+              <li><Link href="/dashboard" className="text-gray-400 hover:text-white transition-colors">Dashboard</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
-              <li><a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+              <li><Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
           <div>
