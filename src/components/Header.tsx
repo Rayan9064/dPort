@@ -14,7 +14,7 @@ export function Header() {
         <div className="hidden md:flex items-center space-x-8">
           <Link href="/" className="text-gray-300 hover:text-primary-light transition-colors">Home</Link>
           <Link href="/themes" className="text-gray-300 hover:text-primary-light transition-colors">Themes</Link>
-          <Link href="/dashboard" className="text-gray-300 hover:text-primary-light transition-colors">Dashboard</Link>
+          <Link href="/portfolio" className="text-gray-300 hover:text-primary-light transition-colors">Dashboard</Link>
           <button className="flex items-center space-x-2 bg-gradient-to-r from-primary to-primary-light text-white px-4 py-2 rounded-lg hover:opacity-90 transition-opacity">
             <Wallet size={20} />
             <span>Connect Wallet</span>
