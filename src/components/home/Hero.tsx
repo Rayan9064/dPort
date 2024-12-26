@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 export function Hero() {
   return (
@@ -23,7 +24,7 @@ export function Hero() {
           </div>
         </div>
         <div className="lg:w-1/2 mt-12 lg:mt-0">
-          <img 
+          <Image 
             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
             alt="Portfolio Creation"
             className="rounded-lg shadow-2xl dark:opacity-80"

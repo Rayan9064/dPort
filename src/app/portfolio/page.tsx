@@ -1,13 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import { User, Briefcase, Code, BookOpen, Mail } from 'lucide-react'
 import About from '@/components/portfolio/About'
 import Projects from '@/components/portfolio/Projects'
 import Skills from '@/components/portfolio/Skills'
 import Experience from '@/components/portfolio/Experience'
 import Contact from '@/components/portfolio/Contact'
-import { User as UserType } from '../../types/user'
+// import { User as UserType } from '../../types/user'
 
 const navItems = [
   { name: 'About', icon: User },
