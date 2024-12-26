@@ -26,6 +26,8 @@ export function Hero() {
         <div className="lg:w-1/2 mt-12 lg:mt-0">
           <Image 
             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+            width={800}
+            height={80}
             alt="Portfolio Creation"
             className="rounded-lg shadow-2xl dark:opacity-80"
           />

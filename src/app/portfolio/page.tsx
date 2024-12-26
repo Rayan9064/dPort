@@ -65,7 +65,7 @@ export default function Home() {
 //   }
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen pt-[4.5rem]">
       <nav className="w-64 bg-gray-100 dark:bg-gray-800 p-4 fixed h-full overflow-auto">
         <h1 className="text-2xl font-bold mb-8">{userData.name}</h1>
         <ul>
