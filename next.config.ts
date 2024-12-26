@@ -5,8 +5,14 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: false, // Ensures ESLint errors stop builds
   },
   images: {
-    domains: ['images.unsplash.com'], // Add the external domain here
-  }
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '/**', // This allows any image path under this domain
+      },
+    ],
+  },
   /* other config options */
 };
 
